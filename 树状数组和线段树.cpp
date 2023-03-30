@@ -20,7 +20,6 @@ update(i,val);将nums[i]的值修改为val
 //6+lowbits(6)=8,
 
 //lowbits(x)，就是一个动态变化的步长，将各个数联系起来
-
 class NumArray{
     private:
     vector<int>bits;//构造树状数组bits
